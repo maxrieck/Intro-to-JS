@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Index Page</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg" style="background-color: black;" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets\Metacritic_M.png" alt="Bootstrap" width="32" height="32">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" aria-current="page" href="reviews.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Reviews
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="reviews.html#new-movies">Latest Movies</a></li>
+                                <li><a class="dropdown-item" href="reviews.html#popular-movies">Top Movies</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="signIn.html">Sign-In</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <section id="new-movies">
+        
+        <h2 class="display-6 mt-5">Latest Reviews</h2>
+        <hr class="border-dark mb-5 border-2 opacity-90">
+      
+
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Movie</th>
+                <th scope="col">Release Date</th>
+                <th scope="col">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Queens of Drama</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-warning round-pill">62</span></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>The Shourds</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-success round-pill">66</span></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>The President's Wife</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-warning round-pill">59</span></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Sinners</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-success round-pill">84</span></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>The Ugly Stepsister</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-success round-pill">74</span></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>The Wedding Banquet</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-success round-pill">68</span></td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Neil Young: Coastal</td>
+                <td>April 17, 2025</td>
+                <td><span class="badge text-bg-warning round-pill">53</span></td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>The Amateur</td>
+                <td>April 11, 2025</td>
+                <td><span class="badge text-bg-warning round-pill">52</span></td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>That They May Face the Rising Sun</td>
+                <td>April 11, 2025</td>
+                <td><span class="badge text-bg-success round-pill">84</span></td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Warfare</td>
+                <td>April 11, 2025</td>
+                <td><span class="badge text-bg-success round-pill">78</span></td>
+              </tr>
+            </tbody>
+          </table class="mb-5">
+
+          <hr class="border-dark mt-5 mb-5 border-2 opacity-90">
+
+
+    </section>
+
+
+    <section id="popular-movies">
+
+        <h2 class="display-6 mt-5">Top Movies in Theaters</h2>
+        <hr class="border-dark mb-5 border-2 opacity-90">
+
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Movie</th>
+                <th scope="col">Release Date</th>
+                <th scope="col">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>On Becoming a Guinea Fowl</td>
+                <td>March 18, 2025</td>
+                <td><span class="badge text-bg-success round-pill">87</span></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Viet and Nam</td>
+                <td>March 28, 2025</td>
+                <td><span class="badge text-bg-success round-pill">86</span></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>BLack Bag</td>
+                <td>March 14, 2025</td>
+                <td><span class="badge text-bg-success round-pill">85</span></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Sinners</td>
+                <td>April 18, 2025</td>
+                <td><span class="badge text-bg-success round-pill">84</span></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Eephus</td>
+                <td>March 7, 2025</td>
+                <td><span class="badge text-bg-success round-pill">83</span></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Misericordia</td>
+                <td>March 21, 2025</td>
+                <td><span class="badge text-bg-success round-pill">83</span></td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Holy Cow</td>
+                <td>March 28, 2025</td>
+                <td><span class="badge text-bg-success round-pill">83</span></td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Grand Tour</td>
+                <td>March 28, 2025</td>
+                <td><span class="badge text-bg-success round-pill">83</span></td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Secret Mall Apartment</td>
+                <td>March 21, 2025</td>
+                <td><span class="badge text-bg-success round-pill">80</span></td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>The Falling Sky</td>
+                <td>March 7, 2025</td>
+                <td><span class="badge text-bg-success round-pill">80</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr class="border-dark mt-5 mb-5 border-2 opacity-90">
+
+
+
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js\script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.card img {
+    
+    padding: 15px;
+    border-radius: 3% 3% 0 0 !important;
+}
+
+
+.card {
+    background-color: rgb(245, 245, 245);
+     border-radius: 3% 3% 3% 3% !important;
+}
+
+
+.scoreBox {
+    background-color: rgb(61, 209, 93);
+    font-weight: bolder;
+    font-size:x-large;
+    border-radius: 8%;
+    width: 52px;
+    height: 52px;
+    
+}
+
+.scoreBox p {
+    position: relative;
+    top: 10%;
+    left: 20%;
+
+
+}
