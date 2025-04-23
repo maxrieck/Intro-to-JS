@@ -30,7 +30,6 @@ function changeColor1() {
 }
 
 
-
 function changeColor2() {
 
     const reviewScore2 = document.getElementById("points2").innerText;
@@ -180,3 +179,26 @@ console.log(changeColor3());
 console.log(changeColor4());
 console.log(changeColor5());
 console.log(changeColor6());
+
+
+
+function validateEmail(email) {
+    return email.includes("@") && email.includes(".");
+  }
+  console.log(validateEmail("test@example.com"));
+
+
+
+function submitUser() {
+  const password= "password1234";
+  const userPassword= document.getElementById("password").value;
+  const errorMessage= document.getElementById("error-message");
+
+  if (password !== userPassword) {
+    errorMessage.textContent ="Incorrect username or password.";
+    
+  } else {
+    errorMessage.textContent ="Login successful!";
+  }
+  }
+
