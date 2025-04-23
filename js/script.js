@@ -1,5 +1,5 @@
 
-
+//color change for review score and carousel cards
 
 function changeColor1() {
 
@@ -115,7 +115,6 @@ function changeColor4() {
     }
 }
 
-
 function changeColor5() {
 
     const reviewScore5 = document.getElementById("points5").innerText;
@@ -181,7 +180,7 @@ console.log(changeColor5());
 console.log(changeColor6());
 
 
-
+//functions for signin page
 function validateEmail(email) {
     return email.includes("@") && email.includes(".");
   }
@@ -202,3 +201,19 @@ function submitUser() {
   }
   }
 
+
+//random movie picker
+  const movies = ["A Minecraft Movie", "Sinners", "Drop", "Warfare"];
+
+  function getRandomMovie() {
+    const index = Math.floor(Math.random() * movies.length);
+    return movies[index];
+  }
+  
+  console.log(`Go see ${getRandomMovie()} this Weekend!`);
+
+
+ 
+  
+  
+ 
